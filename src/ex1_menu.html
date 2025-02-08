@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-6 text-center">
+        <h1 class="text-3xl font-bold">เมนู ข้าวไข่เจียว</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="bg-blue-200 p-4">
+        <ul class="flex justify-center space-x-8 text-lg">
+            <li><a href="#เครื่องปรุง" class="hover:underline">เครื่องปรุง</a></li>
+            <li><a href="#วิธีทำ" class="hover:underline">วิธีทำ</a></li>
+            <li><a href="#ตารางโภชนาการ" class="hover:underline">ตารางโภชนาการ</a></li>
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image -->
+    <div class="flex justify-center my-8">
+        <img src="https://assets.unileversolutions.com/recipes-v2/117788.jpg" alt="ข้าวไข่เจียว" class="w-full max-w-lg rounded-lg shadow-lg">
+    </div>
+
+    <!-- Ingredients Section -->
+    <section id="เครื่องปรุง" class="my-12 px-6">
+        <h2 class="text-2xl font-semibold text-blue-600 mb-4">เครื่องปรุง</h2>
+        <ul class="list-disc pl-6 space-y-2">
+            <li>ไข่ไก่ 2 ฟอง</li>
+            <li>ซีอิ้วขาว เอาที่ชอบ</li>
+            <li>หัวหอม 1 กรัม</li>
+            <li>กุ้ง</li>
+        </ul>
+        <a href="#top" class="text-blue-600 hover:underline mt-4 inline-block">top</a>
+    </section>
+
+    <!-- How to Cook Section -->
+    <section id="วิธีทำ" class="my-12 px-6">
+        <h2 class="text-2xl font-semibold text-blue-600 mb-4">วิธีทำ</h2>
+        <ol class="list-decimal pl-6 space-y-2">
+            <li>ตั้งกระทะ ใส่น้ำมันรอให้ร้อน</li>
+            <li>ตีไข่รวมกับส่วนผสมทั้งหมด</li>
+            <li>เทเครื่องปรุงลงกระทะและพลิกไข่จนสุก</li>
+        </ol>
+        <a href="#top" class="text-blue-600 hover:underline mt-4 inline-block">top</a>
+    </section>
+
+    <!-- Nutritional Table Section -->
+    <section id="ตารางโภชนาการ" class="my-12 px-6">
+        <h3 class="text-2xl font-semibold text-blue-600 mb-4">ตารางโภชนาการ</h3>
+        <table class="min-w-full table-auto border-separate border-spacing-2 border border-gray-300">
+            <thead>
+                <tr class="bg-blue-100">
+                    <th class="border border-gray-300 px-4 py-2">สารอาหาร</th>
+                    <th class="border border-gray-300 px-4 py-2">ปริมาณ</th>
+                    <th class="border border-gray-300 px-4 py-2">หน่วย</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2">โปรตีน</td>
+                    <td class="border border-gray-300 px-4 py-2">100</td>
+                    <td class="border border-gray-300 px-4 py-2" rowspan="2">แคลอรี่</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-300 px-4 py-2">ไขมัน</td>
+                    <td class="border border-gray-300 px-4 py-2">200</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="mt-4"><a href="#top" class="text-blue-600 hover:underline">top</a></p>
+    </section>
+
+    <!-- External Link -->
+    <div class="my-8 text-center">
+        <a href="https://cooking.kapook.com/view284692.html" target="_blank" class="text-blue-600 hover:underline">How to ทอดไข่เจียวให้อร่อย</a>
+    </div>
+
+</body>
+</html>

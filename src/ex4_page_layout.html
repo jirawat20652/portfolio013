@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เมนูอาหาร</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">เมนูอาหาร</h1>
+            <nav class="space-x-4">
+                <a href="#menu" class="text-lg hover:text-yellow-300">เมนูแนะนำ</a>
+                <a href="#specials" class="text-lg hover:text-yellow-300">เมนูพิเศษ</a>
+                <a href="#contact" class="text-lg hover:text-yellow-300">ติดต่อเรา</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-8">
+        <!-- Menu Section -->
+        <section id="menu" class="mb-16">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-semibold mb-8">เมนูแนะนำ</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Menu Item 1 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4">
+                        <img src="https://s.isanook.com/wo/0/ud/37/185369/food.jpg?ip/crop/w1200h700/q80/webp" alt="ผัดไทย" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-medium">ผัดไทย</h3>
+                        <p class="text-lg text-gray-600">฿50</p>
+                    </div>
+                    <!-- Menu Item 2 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4">
+                        <img src="https://patternpack.org/wp-content/uploads/2021/08/unnamed-2-1.jpg" alt="ต้มยำกุ้ง" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-medium">ต้มยำกุ้ง</h3>
+                        <p class="text-lg text-gray-600">฿120</p>
+                    </div>
+                    <!-- Menu Item 3 -->
+                    <div class="bg-white shadow-lg rounded-lg p-4">
+                        <img src="https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1000/https://blog.topclinic.in.th/wp-content/uploads/2023/07/%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%95%E0%B8%B3.jpg" alt="ส้มตำ" class="w-full h-48 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-medium">ส้มตำ</h3>
+                        <p class="text-lg text-gray-600">฿45</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specials Section -->
+        <section id="specials" class="bg-gray-200 py-8">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-semibold mb-4">เมนูพิเศษ</h2>
+                <p class="text-xl">เมนูพิเศษสำหรับวันนี้: <strong class="text-green-600">ข้าวผัดปู (฿80)</strong></p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-8">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-semibold mb-4">ติดต่อเรา</h2>
+                <p class="text-lg">โทร: 081-234-5678</p>
+                <p class="text-lg">ที่อยู่: 123 ถนนอร่อย แขวงรสเด็ด เขตจานพิเศษ กรุงเทพมหานคร</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>© 2025 เมนูอาหาร | สงวนลิขสิทธิ์</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

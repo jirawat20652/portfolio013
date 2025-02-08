@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มรับสมัครศิษย์เก่า IT + IS</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Container -->
+    <div class="container mx-auto px-6 py-10">
+
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-blue-600">แบบฟอร์มรับสมัครศิษย์เก่า IT + IS</h1>
+            <p class="text-xl text-gray-700">กรุณากรอกข้อมูลให้ครบถ้วนและถูกต้อง</p>
+        </header>
+
+        <!-- Form -->
+        <form action="#" method="post" enctype="multipart/form-data" class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+
+            <!-- ชื่อ-สกุล -->
+            <div class="mb-6">
+                <label for="fullName" class="block text-lg font-medium text-gray-700">ชื่อ-สกุล:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="ระบุชื่อ-สกุลของคุณ" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- รหัสนักศึกษา -->
+            <div class="mb-6">
+                <label for="studentID" class="block text-lg font-medium text-gray-700">รหัสนักศึกษา:</label>
+                <input type="text" id="studentID" name="studentID" placeholder="ระบุรหัสนักศึกษา" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- เพศ -->
+            <div class="mb-6">
+                <label for="gender" class="block text-lg font-medium text-gray-700">เพศ:</label>
+                <select id="gender" name="gender" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+                    <option value="male">ชาย</option>
+                    <option value="female">หญิง</option>
+                    <option value="other">อื่นๆ</option>
+                </select>
+            </div>
+
+            <!-- ปีการศึกษา -->
+            <div class="mb-6">
+                <label for="admissionYear" class="block text-lg font-medium text-gray-700">ปีการศึกษาที่เข้าศึกษา:</label>
+                <input type="number" id="admissionYear" name="admissionYear" placeholder="ระบุปีการศึกษา" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- ที่อยู่ -->
+            <div class="mb-6">
+                <label for="address" class="block text-lg font-medium text-gray-700">ที่อยู่:</label>
+                <textarea id="address" name="address" rows="4" placeholder="ระบุที่อยู่ของคุณ" required class="w-full p-3 border border-gray-300 rounded-md mt-2"></textarea>
+            </div>
+
+            <!-- อีเมล -->
+            <div class="mb-6">
+                <label for="email" class="block text-lg font-medium text-gray-700">อีเมล:</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- เบอร์โทร -->
+            <div class="mb-6">
+                <label for="phone" class="block text-lg font-medium text-gray-700">เบอร์โทรศัพท์:</label>
+                <input type="tel" id="phone" name="phone" placeholder="ระบุเบอร์โทรศัพท์" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- ชื่อหลักสูตร -->
+            <div class="mb-6">
+                <label for="program" class="block text-lg font-medium text-gray-700">ชื่อหลักสูตร:</label>
+                <select id="program" name="program" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+                    <option value="it">IT</option>
+                    <option value="is">IS</option>
+                </select>
+            </div>
+
+            <!-- อาชีพปัจจุบัน -->
+            <div class="mb-6">
+                <label for="currentJob" class="block text-lg font-medium text-gray-700">อาชีพปัจจุบัน:</label>
+                <input type="text" id="currentJob" name="currentJob" placeholder="ระบุอาชีพปัจจุบัน" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- สถานที่ทำงาน -->
+            <div class="mb-6">
+                <label for="workPlace" class="block text-lg font-medium text-gray-700">สถานที่ทำงาน:</label>
+                <input type="text" id="workPlace" name="workPlace" placeholder="ระบุชื่อบริษัทและที่อยู่" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- ประเภทงาน -->
+            <div class="mb-6">
+                <label for="jobType" class="block text-lg font-medium text-gray-700">ประเภทงานที่ทำ:</label>
+                <select id="jobType" name="jobType" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+                    <option value="webDeveloper">Web Developer</option>
+                    <option value="sa">SA</option>
+                    <option value="graphicDesign">Graphic Design</option>
+                    <option value="digitalMarketing">Digital Marketing</option>
+                </select>
+            </div>
+
+            <!-- รูปถ่าย -->
+            <div class="mb-6">
+                <label for="photo" class="block text-lg font-medium text-gray-700">อัปโหลดรูปถ่าย:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required class="w-full p-3 border border-gray-300 rounded-md mt-2">
+            </div>
+
+            <!-- ปุ่มส่งข้อมูล -->
+            <div class="flex justify-center">
+                <button type="submit" class="bg-blue-600 text-white py-3 px-8 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    ส่งข้อมูล
+                </button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4 mt-10">
+        <p>&copy; 6640011013</p>
+    </footer>
+
+</body>
+</html>

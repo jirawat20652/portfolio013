@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-black border-b border-gray-700 py-3 px-6 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <button class="text-xl text-white">☰</button>
+            <h1 class="text-xl font-bold text-red-500">CNN</h1>
+            <!-- Navigation (แสดงผลในขนาดหน้าจอใหญ่ๆ) -->
+            <nav class="hidden md:flex space-x-4">
+                <a href="#" class="text-sm font-semibold text-white">US</a>
+                <a href="#" class="text-sm font-semibold text-white">World</a>
+                <a href="#" class="text-sm font-semibold text-white">Politics</a>
+                <a href="#" class="text-sm font-semibold text-white">Business</a>
+                <a href="#" class="text-sm font-semibold text-white">Health</a>
+                <a href="#" class="text-sm font-semibold text-white">Entertainment</a>
+                <a href="#" class="text-sm font-semibold text-white">Style</a>
+                <a href="#" class="text-sm font-semibold text-white">Travel</a>
+                <a href="#" class="text-sm font-semibold text-white">Sports</a>
+                <a href="#" class="text-sm font-semibold text-white">More ▾</a>
+            </nav>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-sm text-red-500">🔴 Live TV</a>
+            <a href="#" class="text-sm text-white">🔍</a>
+            <button class="bg-gray-700 text-white px-4 py-1 rounded">Sign In</button>
+        </div>
+    </header>
+    
+    <!-- Sub Navigation -->
+    <div class="bg-white py-2 px-6 text-sm border-b text-center">
+        <nav class="inline-block mx-auto space-x-4">
+            <a href="#" class="underline">What is DeepSeek?</a>
+            <span>|</span>
+            <a href="#">Chinese zodiac predictions</a>
+            <span>|</span>
+            <a href="#">North Korean soldiers in Russia’s war</a>
+            <span>|</span>
+            <a href="#">Europe’s unexpected Achilles’ heel</a>
+            <span>|</span>
+            <a href="#">Sabyasachi</a>
+            <span>|</span>
+            <a href="#">‘Mona Lisa’</a>
+            <span>|</span>
+            <a href="#">Neymar</a>
+        </nav>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto py-6 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-6">
+
+        <!-- Main Story -->
+        <section class="col-span-4">
+            <h2 class="text-3xl font-bold">Trump tests limits of presidential authority</h2>
+            <br>
+            <img src="https://i.abcnewsfe.com/a/6f82c457-4ae9-42bd-a9d6-dd430dabce19/donald-trump-10-ap-gmh-241106_1730906289206_hpMain.jpg" class="w-full">
+            <p class="text-gray-700 mt-2">Trump’s spending freeze and other controversial moves reflect his view that the US presidency has almost unlimited power.</p>
+            <ul class="list-disc pl-5 mt-2 text-gray-700">
+                <li>Judge pauses part of Trump’s federal aid freeze</li>
+                <li>As humanitarian officials warn people could die as a result of Trump’s foreign aid halt, Rubio issues new waiver</li>
+            </ul>
+        </section>
+        
+        <!-- Sidebar -->
+        <aside class="space-y-6 col-span-5 lg:col-span-2">
+            <div>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/kids-blurred.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="New Story" class="rounded-lg">
+                
+                <h3 class="font-bold mt-2">In public, they ran a successful global business. In private, police allege they abused hundreds of children</h3>
+            </div>
+            <div>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2193829820.jpg?q=w_1110,c_fill/f_webp" alt="New Story" class="rounded-lg">
+                <h3 class="font-bold mt-2">‘There is no future’: Even a potential ceasefire sparks little hope in eastern Ukraine</h3>
+            </div>
+            <div>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/475802172-1039368274899586-5212758942922827088-n.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="New Story" class="rounded-lg">
+                <h3 class="font-bold mt-2">One dead, thousands evacuated as northeast Australia battles massive floods</h3>
+            </div>
+        </aside>
+        <aside class="space-y-6 col-span-7 lg:col-span-2">
+            <div>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2179804707.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" alt="New Story" class="rounded-lg">
+                <h3 class="font-bold mt-2">Greece’s ‘Instagram island’ hit by 200 earthquakes, sparking school closures and warnings to avoid indoor gatherings</h3>
+            </div>
+            <div>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/3058424-2244b.jpg?q=w_1480,c_fill/f_webp" alt="New Story" class="rounded-lg">
+                <h3 class="font-bold mt-2">Best red carpet looks at the 2025 Grammy Awards</h3>
+            </div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                    <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1246500151.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" 
+                         alt="New Story" 
+                         class="w-full h-[100px] object-cover rounded-lg">
+                    <h3 class="text-sm font-bold leading-tight">This snowy Japanese town represents love. But overtourism is turning the sweetness sour</h3>
+                </div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                    <img src="https://media.cnn.com/api/v1/images/stellar/prod/2025-01-21t191817z-684908465-rc2eecaq1l79-rtrmadp-3-britain-police-southport.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" 
+                         alt="New Story" 
+                         class="w-full h-[100px] object-cover rounded-lg">
+                    <h3 class="text-sm font-bold leading-tight">UK to target AI child sex abuse tools in world first legal crackdown</h3>
+                </div>
+        </aside>
+    </main>
+</body>
+</html>

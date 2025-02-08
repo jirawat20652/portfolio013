@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-blue-700 text-white p-8 shadow-lg">
+        <h1 class="text-4xl font-bold text-center">My Professional Portfolio</h1>
+        <nav class="mt-6 text-center">
+            <a href="#about" class="mx-6 hover:underline">About Me</a>
+            <a href="#portfolio" class="mx-6 hover:underline">Portfolio</a>
+            <a href="#contact" class="mx-6 hover:underline">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="py-16 bg-gray-50">
+      <div class="container mx-auto text-center px-6">
+          <h2 class="text-3xl font-semibold mb-8 text-blue-800">About Me</h2>
+          <div class="flex justify-center items-center space-x-8">
+              <!-- Profile Picture -->
+              <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/356811233_3464567487123690_227893658348289801_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=d_wi2DM94uoQ7kNvgEV9ANr&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gF_PuBH3uZt3QYO-rwXzwNiBQGrPzgmUoLGsPao9deYRQ&oe=67A6B3F5" alt="Profile Picture" class="w-64 h-80 object-cover border-4 border-blue-600">
+              
+              <!-- Profile Details -->
+              <div class="text-left max-w-lg">
+                  <p class="text-2xl font-semibold text-gray-800">นาย จิรวัฒน์ วัฒนยนต์กิจ</p>
+                  <p class="text-lg text-gray-600 mt-2">อายุ : 20 เกิดวันที่ : 6 เดือน 5 พ.ศ.6547</p>
+                  <p class="text-lg text-gray-600 mt-2">รหัสนักศึกษา : 6640011013</p>
+                  <p class="text-lg text-gray-600 mt-2">คณะวิทยาศาสตร์เเละเทคโนโลยีอุตสหกรรม</p>
+                  <p class="text-lg text-gray-600 mt-2">มหาวิทยาลัยสงขลานครินทร์</p>
+                  <p class="text-lg text-blue-600 mt-4">Facebook : <a href="https://www.facebook.com/jirawat.wattanayonkit" target="_blank" class="underline hover:text-blue-800">Jirawat Wattanayonkit</a></p>
+                  <p class="text-lg text-blue-600 mt-2">Email : <a href="mailto:6640011013@psu.ac.th" class="underline hover:text-blue-800">6640011013@psu.ac.th</a></p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-3xl font-semibold mb-8">Portfolio</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="portfolio-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                    <img src="https://assets.unileversolutions.com/recipes-v2/117788.jpg" alt="งานที่ 1" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Basic HTML-Exercise 1</h3>
+                    <h4 class="text-sm text-gray-600 mb-4">-Menu-</h4>
+                    <button onclick="window.location.href='ex1_menu.html'" class="bg-blue-700 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition">Go to Next Page</button>
+                </div>
+
+                <div class="portfolio-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                    <img src="https://png.pngtree.com/png-vector/20190321/ourlarge/pngtree-vector-document-icon-png-image_856954.jpg" alt="งานที่ 2" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Form-Exercise 2</h3>
+                    <button onclick="window.location.href='ex2_form.html'" class="bg-blue-700 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition">Go to Next Page</button>
+                </div>
+
+                <div class="portfolio-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                    <img src="https://th.bing.com/th/id/OIP.n6SUwPbUPSTjjgLrLuss5gHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7" alt="งานที่ 3" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Box Model-Exercise 3</h3>
+                    <button onclick="window.location.href='ex3_box_model.html'" class="bg-blue-700 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition">Go to Next Page</button>
+                </div>
+
+                <div class="portfolio-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                    <img src="https://i.pinimg.com/originals/fd/80/ec/fd80ecec48eba2a9adb76e4133905879.png" alt="งานที่ 4" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Page Layout-Exercise 4</h3>
+                    <button onclick="window.location.href='ex4_page_layout.html'" class="bg-blue-700 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition">Go to Next Page</button>
+                </div>
+
+                <div class="portfolio-item bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                  <img src="https://media.cnn.com/api/v1/images/stellar/prod/cnn-fast-placeholder-1920x1080.png?c=16x9&q=w_1280,c_fill" alt="งานที่ 4" class="w-full h-48 object-cover rounded-md mb-4">
+                  <h3 class="text-xl font-semibold mb-2">Clone Website</h3>
+                  <button onclick="window.location.href='ex5_clone_website.html'" class="bg-blue-700 text-white py-2 px-6 rounded-full hover:bg-blue-600 transition">Go to Next Page</button>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+            <p class="text-lg text-gray-800">ติดต่อได้ที่ <a href="mailto:6640011013@psu.ac.th" class="text-blue-600">6640011013@psu.ac.th</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-700 text-white text-center py-6">
+        <p>&copy; 6640011013</p>
+    </footer>
+
+</body>
+</html>
